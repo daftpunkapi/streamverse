@@ -13,7 +13,8 @@
 .card {
   width: 400px; /* Set your desired card width */
   height: 250px; /* Set your desired card height */
-  border: 1.5px solid rgb(38, 50, 90); /* Thick box border */
+  background-color: #f5f4f1;
+  border-radius: 10px;
   margin: 15px; /* Adjust the margin for spacing between cards */
   transition: transform 0.3s ease-in-out; /* Add a transition for smooth scaling */
 }
