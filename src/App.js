@@ -11,15 +11,7 @@ function App() {
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
         <div className="title-container">
-          <h1
-            style={{
-              fontSize: "36px",
-              letterSpacing: "2px",
-              padding: "50px",
-            }}
-          >
-            🚀 Welcome to the World of Streaming 🚀
-          </h1>
+          🚀 Welcome to the World of Streaming 🚀
         </div>
         <Tabs variant="enclosed">
           <TabList justifyContent="center" style={{ margin: "20px 0" }}>
