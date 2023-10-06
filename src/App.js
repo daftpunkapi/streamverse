@@ -21,19 +21,19 @@ function App() {
           <TabList justifyContent="center" style={{ margin: "20px 0" }}>
             <Tab
               _selected={{ color: "white", bg: "blue.900" }}
-              style={{ padding: "10px 70px" }}
+              style={{ padding: "25px 70px" }}
             >
               Landscape
             </Tab>
             <Tab
               _selected={{ color: "white", bg: "blue.900" }}
-              style={{ padding: "10px 70px" }}
+              style={{ padding: "25px 70px" }}
             >
               Database
             </Tab>
             <Tab
               _selected={{ color: "white", bg: "teal.900" }}
-              style={{ padding: "10px 70px" }}
+              style={{ padding: "25px 70px" }}
             >
               Toys
             </Tab>
