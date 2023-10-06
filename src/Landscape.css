@@ -1,5 +1,3 @@
-/* Landscape.css */
-
 .container {
   display: flex;
   flex-direction: column;
@@ -15,11 +13,18 @@
 .card {
   width: 400px; /* Set your desired card width */
   height: 250px; /* Set your desired card height */
-  border: 2px solid rgb(38, 50, 90); /* Thick box border */
+  border: 1.5px solid rgb(38, 50, 90); /* Thick box border */
   margin: 15px; /* Adjust the margin for spacing between cards */
   transition: transform 0.3s ease-in-out; /* Add a transition for smooth scaling */
 }
 
 .card:hover {
   transform: scale(1.1); /* Scale up the card on hover */
+}
+
+.card-heading {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 15px;
+  letter-spacing: 0.4px;
 }
