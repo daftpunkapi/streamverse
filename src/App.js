@@ -32,7 +32,7 @@ function App() {
               Database
             </Tab>
             <Tab
-              _selected={{ color: "white", bg: "teal.900" }}
+              _selected={{ color: "white", bg: "blue.900" }}
               style={{ padding: "25px 70px" }}
             >
               Toys
