@@ -7,8 +7,9 @@
 
 .imgcard {
   display: flex;
-  background: linear-gradient(to right, #d4eaf7, #b6ccd8);
+  background: linear-gradient(to right, #f5f4f1, #b6ccd8);
   flex-direction: column;
+  margin-bottom: 0;
 }
 
 .imgcard-top {
@@ -19,13 +20,9 @@
   font-size: 16px;
 }
 
-.imgcard-top p {
-  flex-grow: 1; /* Allow the text to take up remaining space */
-  margin-right: 10px; /* Add spacing between text and button */
-}
-
 .content-container {
-  display: flex;
+  display: block;
+  margin: 0;
 }
 
 .content-container > div:first-child {
@@ -34,6 +31,7 @@
 
 .content-container > div:last-child {
   flex: 10%;
+  align-items: right;
 }
 .imgcard-bottom {
   flex-grow: 1;
