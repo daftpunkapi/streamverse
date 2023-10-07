@@ -26,12 +26,6 @@ function App() {
             >
               Landscape
             </Tab>
-            {/* <Tab
-              _selected={{ color: "white", bg: "blue.900" }}
-              style={{ padding: "25px 70px" }}
-            >
-              Database
-            </Tab> */}
             <Tab
               _selected={{ color: "black" }}
               style={{ padding: "30px 30px" }}
@@ -49,9 +43,6 @@ function App() {
             <TabPanel>
               <Landscape />
             </TabPanel>
-            {/* <TabPanel>
-              <Table />
-            </TabPanel> */}
             <TabPanel>
               <Toys />
             </TabPanel>
