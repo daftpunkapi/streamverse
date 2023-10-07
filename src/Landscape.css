@@ -1,16 +1,16 @@
-.container {
+.lcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.row {
+.lrow {
   display: flex;
   justify-content: center;
   margin: 10px 0; /* Adjust the margin for spacing between rows */
 }
 
-.card {
+.lcard {
   width: 400px; /* Set your desired card width */
   height: 250px; /* Set your desired card height */
   background: linear-gradient(to right, #d4eaf7, #b6ccd8);
@@ -30,6 +30,6 @@
   letter-spacing: 0.4px;
 }
 
-.row.blur {
+.lrow.blur {
   filter: blur(5px); /* Adjust the blur amount as needed */
 }
