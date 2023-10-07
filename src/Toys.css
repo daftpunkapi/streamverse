@@ -17,7 +17,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  font-size: 16px;
+  margin-left: 10px;
+  font-size: 15px;
 }
 
 .imgcard-bottom {
@@ -26,4 +27,9 @@
   object-fit: cover;
   margin: 0;
   padding: 0;
+}
+
+.button {
+  font-size: 24px;
+  margin-right: 10px;
 }

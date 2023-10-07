@@ -4,7 +4,7 @@ import fx from "./PipelineImg/fx.png";
 import sif from "./PipelineImg/sif.png";
 import zom from "./PipelineImg/zom.png";
 import at from "./PipelineImg/asset.png";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { FaGithub } from "react-icons/fa";
 
 function Toys() {
   return (
@@ -21,7 +21,7 @@ function Toys() {
               window.open("https://github.com/daftpunkapi/asset-tracking-flink")
             }
           >
-            <u>GitHub</u> <ExternalLinkIcon />
+            <FaGithub />
           </button>
         </div>
         <div className="imgcard-bottom">
@@ -40,7 +40,7 @@ function Toys() {
               window.open("https://github.com/daftpunkapi/prototype-v2-sif")
             }
           >
-            <u>GitHub</u> <ExternalLinkIcon />
+            <FaGithub />
           </button>
         </div>
         <div className="imgcard-bottom">
@@ -59,7 +59,7 @@ function Toys() {
               window.open("https://github.com/daftpunkapi/prototype-v0.0.1")
             }
           >
-            <u>GitHub</u> <ExternalLinkIcon />
+            <FaGithub />
           </button>
         </div>
         <div className="imgcard-bottom">
@@ -76,7 +76,7 @@ function Toys() {
             className="button"
             onClick={() => window.open("https://github.com/daftpunkapi/flinky")}
           >
-            <u>GitHub</u> <ExternalLinkIcon />
+            <FaGithub />
           </button>
         </div>
         <div className="imgcard-bottom">
