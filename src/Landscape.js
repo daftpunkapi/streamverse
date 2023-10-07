@@ -17,10 +17,10 @@ const Landscape = () => {
   };
 
   return (
-    <div className="container">
-      <div className={`row ${isPopupOpen ? "blur" : ""}`}>
+    <div className="lcontainer">
+      <div className={`lrow ${isPopupOpen ? "blur" : ""}`}>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
               "Event Stream Processing Platform",
@@ -36,7 +36,7 @@ const Landscape = () => {
           </div>
         </div>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
               "Streaming System (MQs)",
@@ -52,7 +52,7 @@ const Landscape = () => {
           </div>
         </div>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
               "Stream Processor",
@@ -68,7 +68,7 @@ const Landscape = () => {
           </div>
         </div>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
               "Streaming DB",
@@ -84,9 +84,9 @@ const Landscape = () => {
           </div>
         </div>
       </div>
-      <div className={`row ${isPopupOpen ? "blur" : ""}`}>
+      <div className={`lrow ${isPopupOpen ? "blur" : ""}`}>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
               "Streaming Data Integration",
@@ -102,23 +102,23 @@ const Landscape = () => {
           </div>
         </div>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
-              "Real-time Infrastructure",
+              "Serving Layer / OLAP",
               "https://airtable.com/embed/appo9GPmQgEfICvPL/shr2nVbh3gskKd8Cn?backgroundColor=blue"
             )
           }
         >
           <div className="card-content">
-            <div className="card-heading">Real-time Infrastructure</div>
+            <div className="card-heading">Serving Layer / OLAP</div>
             <p className="card-description">
               This is the description for Card 6.
             </p>
           </div>
         </div>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
               "Real-time ML",
@@ -134,16 +134,16 @@ const Landscape = () => {
           </div>
         </div>
         <div
-          className="card"
+          className="lcard"
           onClick={() =>
             handleCardClick(
-              "Serving Layer / OLAP",
+              "Real-time Infrastructure",
               "https://airtable.com/embed/appo9GPmQgEfICvPL/shr2nVbh3gskKd8Cn?backgroundColor=blue"
             )
           }
         >
           <div className="card-content">
-            <div className="card-heading">Serving Layer / OLAP</div>
+            <div className="card-heading">Real-time Infrastructure</div>
             <p className="card-description">
               This is the description for Card 8.
             </p>

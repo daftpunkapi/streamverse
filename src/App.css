@@ -3,7 +3,11 @@
 }
 
 .title-container {
-  background-color: #f5f4f1; /* Same background color as the cards */
+  background: linear-gradient(
+    to right,
+    #cccbc8,
+    #f5f4f1
+  ); /* Same background color as the cards */
   margin: 0 auto;
   padding: 20px 20px; /* Adjust the padding as needed */
   border-radius: 10px; /* Add rounded corners to the box */
