@@ -4,14 +4,25 @@ import fx from "./PipelineImg/fx.png";
 import sif from "./PipelineImg/sif.png";
 import zom from "./PipelineImg/zom.png";
 import at from "./PipelineImg/asset.png";
+import gh from "./gh.webp";
 
 function Toys() {
   return (
     <div className="imgcontainer">
       <div className="imgcard">
         <div className="imgcard-top">
-          <p>Description for Asset Tracking</p>
-          <button>Button for Asset Tracking</button>
+          <div class="content-container">
+            Last Mile real-time IoT Asset Tracking i.e. driver data visibility &
+            ETA to destination
+            <a
+              href="https://example.com"
+              target="_blank"
+              class="button-link"
+              rel="noreferrer"
+            >
+              <img src={gh} alt="repo link" class="button-image" />
+            </a>
+          </div>
         </div>
         <div className="imgcard-bottom">
           <img src={at} alt="Asset Tracking" />
@@ -19,8 +30,11 @@ function Toys() {
       </div>
       <div className="imgcard">
         <div className="imgcard-top">
-          <p>Description for Sign-in Fraud</p>
-          <button>Button for Sign-in Fraud</button>
+          <p>
+            Real-time Sign-In Fraud Detection based on Network & Digital Body
+            Language of User
+          </p>
+          <button>Button</button>
         </div>
         <div className="imgcard-bottom">
           <img src={sif} alt="Sign-in Fraud" />
@@ -28,8 +42,11 @@ function Toys() {
       </div>
       <div className="imgcard">
         <div className="imgcard-top">
-          <p>Description for Restaurant Hyperpersonalization</p>
-          <button>Button for Restaurant Hyperpersonalization</button>
+          <p>
+            Recsys pipeline to recommend Restaurants based on live location,
+            order traffic & order history
+          </p>
+          <button>Button</button>
         </div>
         <div className="imgcard-bottom">
           <img src={zom} alt="Restaurant Hyperpersonalization" />
@@ -37,8 +54,11 @@ function Toys() {
       </div>
       <div className="imgcard">
         <div className="imgcard-top">
-          <p>Description for RT Stock Prices</p>
-          <button>Button for RT Stock Prices</button>
+          <p>
+            Converts live Stock Price of any Company from USD to INR using
+            real-time FX rates
+          </p>
+          <button>Button</button>
         </div>
         <div className="imgcard-bottom">
           <img src={fx} alt="RT Stock Prices" />

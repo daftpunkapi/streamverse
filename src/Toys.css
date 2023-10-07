@@ -7,8 +7,7 @@
 
 .imgcard {
   display: flex;
-  background-color: #f5f4f1;
-  background: #f5f4f1;
+  background: linear-gradient(to right, #d4eaf7, #b6ccd8);
   flex-direction: column;
 }
 
@@ -16,9 +15,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
+.imgcard-top p {
+  flex-grow: 1; /* Allow the text to take up remaining space */
+  margin-right: 10px; /* Add spacing between text and button */
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-container > div:first-child {
+  flex: 90%;
+}
+
+.content-container > div:last-child {
+  flex: 10%;
+}
 .imgcard-bottom {
-  background-color: #f5f4f1;
   flex-grow: 1;
+  align-items: center;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+
+.button-image {
+  height: 30px; /* Adjust the size as needed */
+  width: 30px; /* Adjust the size as needed */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover;
 }
