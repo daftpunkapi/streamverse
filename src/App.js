@@ -9,9 +9,11 @@ import {
   Tab,
   TabPanel,
   TabIndicator,
+  ChakraProvider,
 } from "@chakra-ui/react";
-import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
+import { BiLandscape } from "react-icons/bi";
+import { GiAndromedaChain } from "react-icons/gi";
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -49,7 +51,7 @@ function App() {
                   e.target.style.backgroundColor = "transparent";
                 }}
               >
-                Landscape
+                <BiLandscape /> Landscape
               </span>
             </Tab>
             <Tab
@@ -71,7 +73,7 @@ function App() {
                   e.target.style.backgroundColor = "transparent";
                 }}
               >
-                Toys
+                <GiAndromedaChain /> Toys
               </span>
             </Tab>
           </TabList>
