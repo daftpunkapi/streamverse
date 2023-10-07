@@ -5,11 +5,12 @@
 .title-container {
   background-color: #f5f4f1; /* Same background color as the cards */
   margin: 0 auto;
-  padding: 5px; /* Adjust the padding as needed */
-  border-radius: 20px; /* Add rounded corners to the box */
+  padding: 20px 20px; /* Adjust the padding as needed */
+  border-radius: 10px; /* Add rounded corners to the box */
   display: inline-block;
   font-size: 24px;
+  color: black;
+  font-weight: 600;
   letter-spacing: 2px;
   margin-top: 25px;
-  padding: "50px";
 }

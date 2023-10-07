@@ -4,18 +4,21 @@ import CardPopup from "./CardPopup";
 
 const Landscape = () => {
   const [popupContent, setPopupContent] = useState(null);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   const handleCardClick = (title, iframeSrc) => {
     setPopupContent({ title, iframeSrc });
+    setIsPopupOpen(true);
   };
 
   const closePopup = () => {
     setPopupContent(null);
+    setIsPopupOpen(false);
   };
 
   return (
     <div className="container">
-      <div className="row">
+      <div className={`row ${isPopupOpen ? "blur" : ""}`}>
         <div
           className="card"
           onClick={() =>
@@ -81,7 +84,7 @@ const Landscape = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className={`row ${isPopupOpen ? "blur" : ""}`}>
         <div
           className="card"
           onClick={() =>

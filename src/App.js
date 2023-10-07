@@ -2,7 +2,14 @@ import Landscape from "./Landscape";
 import Toys from "./Toys";
 // import Table from "./Table";
 import * as React from "react";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import {
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
+  TabIndicator,
+} from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
 
@@ -10,14 +17,12 @@ function App() {
   return (
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
-        <div className="title-container">
-          🚀 Welcome to the World of Streaming 🚀
-        </div>
-        <Tabs variant="enclosed">
-          <TabList justifyContent="center" style={{ margin: "20px 0" }}>
+        <div className="title-container"> Stream Sprawl Landscape </div>
+        <Tabs position="relative" variant="unstyled">
+          <TabList justifyContent="center" style={{ margin: "10px 0" }}>
             <Tab
-              _selected={{ color: "black", bg: "#b6ccd8" }}
-              style={{ padding: "25px 70px" }}
+              _selected={{ color: "black" }}
+              style={{ padding: "30px 30px" }}
             >
               Landscape
             </Tab>
@@ -28,12 +33,18 @@ function App() {
               Database
             </Tab> */}
             <Tab
-              _selected={{ color: "black", bg: "#b6ccd8" }}
-              style={{ padding: "25px 70px" }}
+              _selected={{ color: "black" }}
+              style={{ padding: "30px 30px" }}
             >
               Toys
             </Tab>
           </TabList>
+          <TabIndicator
+            mt="-25px"
+            height="4px"
+            bg="#00668c"
+            borderRadius="1px"
+          />
           <TabPanels>
             <TabPanel>
               <Landscape />
