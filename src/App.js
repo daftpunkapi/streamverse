@@ -1,6 +1,5 @@
 import Landscape from "./Landscape";
 import Toys from "./Toys";
-// import Table from "./Table";
 import * as React from "react";
 import { useState } from "react";
 import {
@@ -13,7 +12,6 @@ import {
 } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
-// import MotionBackground from "./motion";
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -22,8 +20,6 @@ function App() {
     setTabIndex(index);
   };
   return (
-    // <div>
-    // <MotionBackground />
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
         <div className="title-container"> Streaming Stack</div>
@@ -96,7 +92,6 @@ function App() {
         </Tabs>
       </div>
     </ChakraProvider>
-    // </div>
   );
 }
 
