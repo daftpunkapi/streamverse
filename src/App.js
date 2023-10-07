@@ -14,6 +14,8 @@ import {
 import "./App.css";
 import { BiLandscape } from "react-icons/bi";
 import { GiAndromedaChain } from "react-icons/gi";
+import { FaGithub } from "react-icons/fa";
+import { SiSubstack } from "react-icons/si";
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -24,7 +26,26 @@ function App() {
   return (
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
-        <div className="title-container"> Streaming Stack</div>
+        <div className="title-container">Streaming Stack</div>
+        <div className="header-icons">
+          <a
+            href="https://bxbivc.substack.com/p/on-the-fly"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon-link"
+          >
+            <SiSubstack className="icon" />
+          </a>
+          <a
+            href="https://github.com/daftpunkapi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon-link"
+          >
+            <FaGithub className="icon" />
+          </a>
+        </div>
+
         <Tabs
           index={tabIndex}
           onChange={handleTabsChange}
@@ -34,7 +55,11 @@ function App() {
           <TabList justifyContent="center" style={{ margin: "10px 0" }}>
             <Tab
               _selected={{ color: "black" }}
-              style={{ padding: "30px 30px" }}
+              style={{
+                padding: "30px 30px",
+                display: "flex",
+                alignItems: "center",
+              }}
             >
               <span
                 style={{
@@ -51,12 +76,21 @@ function App() {
                   e.target.style.backgroundColor = "transparent";
                 }}
               >
-                <BiLandscape /> Landscape
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <BiLandscape
+                    style={{ marginRight: "5px", fontSize: "30px" }}
+                  />
+                  Landscape
+                </div>
               </span>
             </Tab>
             <Tab
               _selected={{ color: "black" }}
-              style={{ padding: "30px 30px" }}
+              style={{
+                padding: "30px 30px",
+                display: "flex",
+                alignItems: "center",
+              }}
             >
               <span
                 style={{
@@ -73,7 +107,12 @@ function App() {
                   e.target.style.backgroundColor = "transparent";
                 }}
               >
-                <GiAndromedaChain /> Toys
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <GiAndromedaChain
+                    style={{ marginRight: "5px", fontSize: "30px" }}
+                  />
+                  Toys
+                </div>
               </span>
             </Tab>
           </TabList>
