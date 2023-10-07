@@ -14,7 +14,7 @@
   display: flexbox;
   width: 400px; /* Set your desired card width */
   height: 250px; /* Set your desired card height */
-  background: linear-gradient(to right, #d4eaf7, #b6ccd8);
+  background: linear-gradient(to right, #d4eaf7, rgb(124, 182, 213));
   border-radius: 10px;
   margin: 15px; /* Adjust the margin for spacing between cards */
   transition: transform 0.3s ease-in-out; /* Add a transition for smooth scaling */
@@ -26,11 +26,40 @@
 
 .card-heading {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 15px;
   letter-spacing: 0.4px;
 }
 
+.card-description {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.expand {
+  font-size: 12px;
+  margin-top: 0px;
+  color: #00668c;
+  font-weight: bold;
+}
 .lrow.blur {
   filter: blur(5px); /* Adjust the blur amount as needed */
+}
+
+.logo-frame {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 25px;
+}
+
+.logo {
+  border-radius: 50%;
+  border: 1px solid #00668c;
+  width: 45px;
+  height: 45px;
 }
