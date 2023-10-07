@@ -2,14 +2,23 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 5px;
+  gap: 20px;
 }
 
 .imgcard {
   display: flex;
+  background-color: #f5f4f1;
+  background: #f5f4f1;
+  flex-direction: column;
+}
+
+.imgcard-top {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  padding: 5 0px; /* Adjust the padding as needed */
-  margin: 0px; /* Same margin as the landscape cards */
+}
+
+.imgcard-bottom {
+  background-color: #f5f4f1;
+  flex-grow: 1;
 }
