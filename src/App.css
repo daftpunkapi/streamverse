@@ -12,6 +12,8 @@
   padding: 20px 20px; /* Adjust the padding as needed */
   border-radius: 10px; /* Add rounded corners to the box */
   display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 24px;
   color: black;
   font-weight: 600;

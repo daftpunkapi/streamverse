@@ -17,7 +17,7 @@ function App() {
   return (
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
-        <div className="title-container"> Stream Sprawl Landscape </div>
+        <div className="title-container"> Streaming Stack</div>
         <Tabs position="relative" variant="unstyled">
           <TabList justifyContent="center" style={{ margin: "10px 0" }}>
             <Tab
