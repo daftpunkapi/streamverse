@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
+// import MotionBackground from "./motion";
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -21,6 +22,8 @@ function App() {
     setTabIndex(index);
   };
   return (
+    // <div>
+    // <MotionBackground />
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
         <div className="title-container"> Streaming Stack</div>
@@ -33,17 +36,47 @@ function App() {
           <TabList justifyContent="center" style={{ margin: "10px 0" }}>
             <Tab
               _selected={{ color: "black" }}
-              _hover={tabIndex !== 0 ? { backgroundColor: "lightgrey" } : {}}
               style={{ padding: "30px 30px" }}
             >
-              Landscape
+              <span
+                style={{
+                  padding: "5px",
+                  borderRadius: "5px",
+                  transition: "background-color 0.3s",
+                }}
+                onMouseEnter={(e) => {
+                  if (tabIndex !== 0) {
+                    e.target.style.backgroundColor = "lightgrey";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.backgroundColor = "transparent";
+                }}
+              >
+                Landscape
+              </span>
             </Tab>
             <Tab
               _selected={{ color: "black" }}
-              _hover={tabIndex !== 1 ? { backgroundColor: "lightgrey" } : {}}
               style={{ padding: "30px 30px" }}
             >
-              Toys
+              <span
+                style={{
+                  padding: "5px",
+                  borderRadius: "5px",
+                  transition: "background-color 0.3s",
+                }}
+                onMouseEnter={(e) => {
+                  if (tabIndex !== 1) {
+                    e.target.style.backgroundColor = "lightgrey";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.backgroundColor = "transparent";
+                }}
+              >
+                Toys
+              </span>
             </Tab>
           </TabList>
           <TabIndicator
@@ -63,6 +96,7 @@ function App() {
         </Tabs>
       </div>
     </ChakraProvider>
+    // </div>
   );
 }
 
