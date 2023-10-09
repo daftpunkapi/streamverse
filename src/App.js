@@ -26,7 +26,6 @@ function App() {
   return (
     <ChakraProvider>
       <div className="app-container" style={{ textAlign: "center" }}>
-        <div className="title-container">Streaming Stack</div>
         <div className="header-icons">
           <a
             href="https://bxbivc.substack.com/p/on-the-fly"
@@ -45,81 +44,49 @@ function App() {
             <FaGithub className="icon" />
           </a>
         </div>
-
+        <div className="title-container">STREAMING STACK</div>
         <Tabs
           index={tabIndex}
           onChange={handleTabsChange}
           position="relative"
           variant="unstyled"
         >
-          <TabList justifyContent="center" style={{ margin: "10px 0" }}>
+          <TabList justifyContent="center" style={{ margin: "0" }}>
             <Tab
-              _selected={{ color: "black" }}
+              _selected={{ color: "#ffecda" }}
               style={{
+                color: "#ffecda",
                 padding: "30px 30px",
                 display: "flex",
                 alignItems: "center",
               }}
             >
-              <span
-                style={{
-                  padding: "5px",
-                  borderRadius: "5px",
-                  transition: "background-color 0.3s",
-                }}
-                onMouseEnter={(e) => {
-                  if (tabIndex !== 0) {
-                    e.target.style.backgroundColor = "lightgrey";
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = "transparent";
-                }}
-              >
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <BiLandscape
-                    style={{ marginRight: "5px", fontSize: "30px" }}
-                  />
-                  Landscape
-                </div>
-              </span>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <BiLandscape style={{ marginRight: "5px", fontSize: "30px" }} />
+                Landscape
+              </div>
             </Tab>
             <Tab
-              _selected={{ color: "black" }}
+              _selected={{ color: "#ffecda" }}
               style={{
+                color: "#ffecda",
                 padding: "30px 30px",
                 display: "flex",
                 alignItems: "center",
               }}
             >
-              <span
-                style={{
-                  padding: "5px",
-                  borderRadius: "5px",
-                  transition: "background-color 0.3s",
-                }}
-                onMouseEnter={(e) => {
-                  if (tabIndex !== 1) {
-                    e.target.style.backgroundColor = "lightgrey";
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = "transparent";
-                }}
-              >
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <GiAndromedaChain
-                    style={{ marginRight: "5px", fontSize: "30px" }}
-                  />
-                  Toys
-                </div>
-              </span>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <GiAndromedaChain
+                  style={{ marginRight: "5px", fontSize: "30px" }}
+                />
+                Solutions
+              </div>
             </Tab>
           </TabList>
           <TabIndicator
             mt="-25px"
             height="4px"
-            bg="#00668c"
+            bg="#FF4D4D"
             borderRadius="1px"
           />
           <TabPanels>

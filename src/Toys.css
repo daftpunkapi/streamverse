@@ -7,7 +7,7 @@
 
 .imgcard {
   display: flex;
-  background: linear-gradient(to right, #f5f4f1, #b6ccd8);
+  background: linear-gradient(to right, #2c3a4f, #292e3b);
   flex-direction: column;
   margin-bottom: 0;
 }
@@ -18,11 +18,13 @@
   align-items: center;
   padding: 10px;
   margin-left: 10px;
-  font-size: 15px;
+  font-size: 14px;
+  color: #ffecda;
 }
 
 .imgcard-bottom {
   flex-grow: 1;
+  display: flexbox;
   align-items: center;
   object-fit: cover;
   margin: 0;
@@ -32,4 +34,7 @@
 .button {
   font-size: 24px;
   margin-right: 10px;
+}
+button:hover {
+  color: #ff4d4d;
 }
