@@ -96,6 +96,8 @@ const Landscape = () => {
             <img src={SP3} alt="logo" class="logo" />
           </div>
         </div>
+      </div>
+      <div className={`lrow ${isPopupOpen ? "blur" : ""}`}>
         <div
           className="lcard"
           onClick={() =>
@@ -204,6 +206,8 @@ const Landscape = () => {
             <img src={esp3} alt="logo" class="logo" />
           </div>
         </div>
+      </div>
+      <div className={`lrow ${isPopupOpen ? "blur" : ""}`}>
         <div
           className="lcard"
           onClick={() =>

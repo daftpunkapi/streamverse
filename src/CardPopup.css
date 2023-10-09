@@ -25,3 +25,15 @@
   font-weight: bold;
   padding: 15px;
 }
+
+@media (max-width: 480px) {
+  .card-popup {
+    width: calc(100% - 100px);
+  }
+  .card-popup-close {
+    width: calc(100% - 1000px);
+  }
+  .card-popup-heading {
+    width: calc(100% - 30px);
+  }
+}

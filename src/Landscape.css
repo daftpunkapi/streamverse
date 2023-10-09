@@ -68,3 +68,34 @@
   width: 45px;
   height: 45px;
 }
+
+/* @media (max-width: 480px) {
+  .lcard {
+    width: calc(100%); 
+  }
+
+  .lrow {
+    width: calc(100% - 30px); 
+  }
+  .logo {
+    width: calc(
+      100% - 100px
+    ); 
+    height: calc(100% - 100px);
+  }
+  .logo-frame {
+    width: calc(100% - 30px); 
+  }
+  .lcontainer {
+    width: calc(100% - 30px); 
+  }
+  .card-description {
+    width: calc(100%); 
+  }
+  .card-heading {
+    width: calc(100% - 30px); 
+  }
+  .expand {
+    width: calc(100% - 30px); 
+  }
+} */
