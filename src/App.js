@@ -16,6 +16,7 @@ import { BiLandscape } from "react-icons/bi";
 import { GiAndromedaChain } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
 import { SiSubstack } from "react-icons/si";
+import { AiTwotoneCalendar } from "react-icons/ai";
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -42,6 +43,14 @@ function App() {
             className="icon-link"
           >
             <FaGithub className="icon" />
+          </a>
+          <a
+            href="https://calendly.com/rm23/lets-connect"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon-link"
+          >
+            <AiTwotoneCalendar className="icon" />
           </a>
         </div>
         <div className="title-container">STREAMING STACK</div>
