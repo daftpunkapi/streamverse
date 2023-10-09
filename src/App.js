@@ -59,6 +59,7 @@ function App() {
                 padding: "30px 30px",
                 display: "flex",
                 alignItems: "center",
+                fontFamily: "Chakra Petch",
               }}
             >
               <div style={{ display: "flex", alignItems: "center" }}>
@@ -73,6 +74,7 @@ function App() {
                 padding: "30px 30px",
                 display: "flex",
                 alignItems: "center",
+                fontFamily: "Chakra Petch",
               }}
             >
               <div style={{ display: "flex", alignItems: "center" }}>
