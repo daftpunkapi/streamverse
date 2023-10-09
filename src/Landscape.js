@@ -48,13 +48,13 @@ const Landscape = () => {
           className="lcard"
           onClick={() =>
             handleCardClick(
-              "Streaming System (MQs)",
+              "Streaming Systems (MQs)",
               "https://airtable.com/embed/appo9GPmQgEfICvPL/shrPf9lEGSONOf40O?backgroundColor=blue"
             )
           }
         >
           <div className="card-content">
-            <div className="card-heading">Streaming System (MQs)</div>
+            <div className="card-heading">Streaming Systems (MQs)</div>
             <p className="card-description">
               Implemented as Event Logs, Message Queue platforms have become the
               central nervous system i.e. broker platform for publish and
@@ -74,13 +74,13 @@ const Landscape = () => {
           className="lcard"
           onClick={() =>
             handleCardClick(
-              "Stream Processor",
+              "Stream Processors",
               "https://airtable.com/embed/appo9GPmQgEfICvPL/shrZQKefSDQ5pLLft?backgroundColor=blue"
             )
           }
         >
           <div className="card-content">
-            <div className="card-heading">Stream Processor</div>
+            <div className="card-heading">Stream Processors</div>
             <p className="card-description">
               SPs can process and analyze event streams sourced from streaming
               ESP or MQs on-the-fly. SPs can hold state for complex logic,
@@ -100,13 +100,13 @@ const Landscape = () => {
           className="lcard"
           onClick={() =>
             handleCardClick(
-              "Streaming DB",
+              "Streaming DBs",
               "https://airtable.com/embed/appo9GPmQgEfICvPL/shrv35v5D694vKhAw?backgroundColor=blue"
             )
           }
         >
           <div className="card-content">
-            <div className="card-heading">Streaming DB</div>
+            <div className="card-heading">Streaming DBs</div>
             <p className="card-description">
               Vendors combine stream processing engines and repurpose them
               inside databases. They build materialized views to power
@@ -180,13 +180,15 @@ const Landscape = () => {
           className="lcard"
           onClick={() =>
             handleCardClick(
-              "Event Stream Processing Platform",
+              "Event Stream Processing Platforms",
               "https://airtable.com/embed/appo9GPmQgEfICvPL/shr2nVbh3gskKd8Cn?backgroundColor=blue"
             )
           }
         >
           <div className="card-content">
-            <div className="card-heading">Event Stream Processing Platform</div>
+            <div className="card-heading">
+              Event Stream Processing Platforms
+            </div>
             <p className="card-description">
               ESPs have evolved from being mere message queue brokers to full
               fledged end-to-end solutions often encompassing solutions from
