@@ -26,9 +26,12 @@
   background: #ff4d4d;
 }
 .lcard:hover .card-heading {
-  color: #292e3b;
+  color: #ffecda;
 }
 .lcard:hover .expand {
+  color: #ffecda;
+}
+.lcard:hover .card-description {
   color: #292e3b;
 }
 
@@ -38,7 +41,7 @@
   margin: 15px;
   letter-spacing: 0.4px;
   font-family: "Chakra Petch", sans-serif;
-  color: #ffecda;
+  color: #ff4d4d;
 }
 
 .card-description {
