@@ -26,13 +26,13 @@
   background: #ff4d4d;
 }
 .lcard:hover .card-heading {
-  color: #ffecda;
+  color: #292e3b;
 }
 .lcard:hover .expand {
-  color: #ffecda;
+  color: #292e3b;
 }
 .lcard:hover .card-description {
-  color: #292e3b;
+  color: #ffecda;
 }
 
 .card-heading {
