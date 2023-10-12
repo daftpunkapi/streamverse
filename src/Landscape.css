@@ -38,6 +38,8 @@
 .lcard:hover .logo {
   border-radius: 50%;
   border: 1px solid #292e3b;
+  width: 45px;
+  height: 45px;
 }
 
 .card-heading {
