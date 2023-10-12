@@ -35,6 +35,11 @@
   color: #ffecda;
 }
 
+.lcard:hover .logo {
+  border-radius: 50%;
+  border: 1px solid #292e3b;
+}
+
 .card-heading {
   font-size: 20px;
   font-weight: 600;
