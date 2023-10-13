@@ -61,7 +61,7 @@ const Landscape = () => {
               subscribe capabilities in the real time realm.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -87,7 +87,7 @@ const Landscape = () => {
               transformations, join and customs UDFs.{" "}
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -115,7 +115,7 @@ const Landscape = () => {
               dashboards and applications. SQL is a core selling point.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -141,7 +141,7 @@ const Landscape = () => {
               other databases or files primarily via CDCs.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -169,7 +169,7 @@ const Landscape = () => {
               high throughput & complex querying.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -197,7 +197,7 @@ const Landscape = () => {
               other categories in this landscape.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -224,7 +224,7 @@ const Landscape = () => {
               cases enabled by robust streaming infrastructure at it's core.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
@@ -250,7 +250,7 @@ const Landscape = () => {
               infrastructures.
             </p>
             <p className="expand">
-              <u>ENTER</u>
+              <u>VIEW</u>
             </p>
           </div>
           <div className="logo-frame">
