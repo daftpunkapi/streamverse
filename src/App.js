@@ -45,7 +45,7 @@ function App() {
             <FaGithub className="icon" />
           </a>
           <a
-            href="https://calendly.com/rm23/lets-connect"
+            href="https://book.ms/b/founders@KappaLab.onmicrosoft.com"
             target="_blank"
             rel="noopener noreferrer"
             className="icon-link"
