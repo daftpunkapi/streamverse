@@ -44,14 +44,6 @@ function App() {
           >
             <FaGithub className="icon" />
           </a>
-          <a
-            href="https://book.ms/b/founders@KappaLab.onmicrosoft.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="icon-link"
-          >
-            <AiTwotoneCalendar className="icon" />
-          </a>
         </div>
         <div className="title-container">STREAMING STACK</div>
         <Tabs
